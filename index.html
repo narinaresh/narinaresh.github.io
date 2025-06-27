@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +39,7 @@
             text-transform: uppercase;
             letter-spacing: 3px;
             color: #ff006e;
-            text-shadow: 
+            text-shadow:
                 0 0 10px #ff006e,
                 0 0 20px #ff006e,
                 0 0 30px #ff006e,
@@ -56,7 +57,7 @@
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #00ffff;
-            text-shadow: 
+            text-shadow:
                 0 0 10px #00ffff,
                 0 0 20px #00ffff,
                 0 0 30px #00ffff,
@@ -75,7 +76,7 @@
             text-transform: uppercase;
             letter-spacing: 3px;
             color: #ff1493;
-            text-shadow: 
+            text-shadow:
                 0 0 10px #ff1493,
                 0 0 20px #ff1493,
                 0 0 30px #ff1493,
@@ -89,8 +90,10 @@
         }
 
         @keyframes neonFlickerName {
-            0%, 100% {
-                text-shadow: 
+
+            0%,
+            100% {
+                text-shadow:
                     0 0 10px #00ffff,
                     0 0 20px #00ffff,
                     0 0 30px #00ffff,
@@ -99,8 +102,9 @@
                     0 0 60px #00ffff,
                     0 0 70px #00ffff;
             }
+
             50% {
-                text-shadow: 
+                text-shadow:
                     0 0 5px #00ffff,
                     0 0 10px #00ffff,
                     0 0 15px #00ffff,
@@ -136,6 +140,7 @@
             0% {
                 box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
             }
+
             100% {
                 box-shadow: 0 0 15px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
             }
@@ -156,6 +161,7 @@
             0% {
                 box-shadow: 0 0 15px #ff0000;
             }
+
             100% {
                 box-shadow: 0 0 25px #ff0000, 0 0 35px #ff0000;
             }
@@ -203,6 +209,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -281,11 +288,14 @@
                 box-shadow: 0 0 20px #ff006e;
                 border-color: #ff006e;
             }
+
             100% {
                 box-shadow: 0 0 30px #ff006e, 0 0 40px #ff006e;
                 border-color: #00ffff;
             }
         }
+
+        .timeline-dot {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
@@ -303,10 +313,12 @@
                 transform: translateX(-50%) scale(1);
                 box-shadow: 0 0 20px #ff0000;
             }
+
             50% {
                 transform: translateX(-50%) scale(1.2);
                 box-shadow: 0 0 30px #ff0000, 0 0 40px #ff0000;
             }
+
             100% {
                 transform: translateX(-50%) scale(1);
                 box-shadow: 0 0 20px #ff0000;
@@ -318,25 +330,25 @@
             .neon-text {
                 font-size: 2.5rem;
             }
-            
+
             .neon-name {
                 font-size: 2rem;
             }
-            
+
             .neon-love {
                 font-size: 1.8rem;
             }
-            
+
             .timeline-item {
                 flex-direction: column !important;
                 text-align: center;
             }
-            
+
             .timeline-content {
                 margin: 20px;
                 max-width: none;
             }
-            
+
             .hairpin-curve {
                 display: none;
             }
@@ -361,28 +373,36 @@
                 transform: translate(-100px, 100vh) rotate(0deg) scale(0.8);
                 opacity: 0;
             }
+
             5% {
                 opacity: 1;
             }
+
             15% {
                 transform: translate(10vw, 90vh) rotate(45deg) scale(1);
             }
+
             30% {
                 transform: translate(30vw, 70vh) rotate(90deg) scale(1.2);
             }
+
             45% {
                 transform: translate(60vw, 50vh) rotate(180deg) scale(0.9);
             }
+
             60% {
                 transform: translate(85vw, 30vh) rotate(270deg) scale(1.1);
             }
+
             75% {
                 transform: translate(70vw, 10vh) rotate(315deg) scale(1);
             }
+
             90% {
                 transform: translate(40vw, -5vh) rotate(360deg) scale(0.8);
                 opacity: 1;
             }
+
             100% {
                 transform: translate(100vw, -20vh) rotate(405deg) scale(0.6);
                 opacity: 0;
@@ -390,32 +410,27 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <!-- Neon Happy Birthday Title -->
         <div class="neon-title">
             <div class="neon-text">Happy Birthday</div>
-            <div class="neon-name">Dhaara</div>
+            <div class="neon-name">Dhaarani</div>
         </div>
 
-        <!-- Timeline Section -->
         <div class="timeline">
-            <!-- Red Thread Path -->
             <div class="thread-path"></div>
-            
-            <!-- Hairpin Bend Curves -->
             <div class="hairpin-curve"></div>
             <div class="hairpin-curve"></div>
             <div class="hairpin-curve"></div>
             <div class="hairpin-curve"></div>
 
-            <!-- Timeline Items -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">July 23, 2024</div>
                     <div class="timeline-title">The Beginning</div>
-                    <div class="timeline-description">This special day marks the start of an incredible journey. A moment that would change everything and bring endless joy and love into our lives.</div>
+                    <div class="timeline-description">This special day marks the beginning of our journey — a day we’ll never forget. Who would have thought it could be our very first step together? Thank you for being there on that meaningful day.It was just the start, but it meant everything. Your presence made it even more unforgettable, and I'm so grateful we shared that moment.</div>
                 </div>
             </div>
 
@@ -423,8 +438,9 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">August 2024</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">Knowing eachother</div>
+                    <div class="timeline-description">It was a month where we shared our pasts and learned more about each other, day by day, moment by moment. That’s when our bond started to grow stronger, and we began talking more often.
+I still remember — it was a Thursday when you reached out to me, as Cokin. That moment felt simple, but it was the beginning of something truly special.</div>
                 </div>
             </div>
 
@@ -432,8 +448,9 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">September 2024</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">The Smiles</div>
+                    <div class="timeline-description">In this month, there were only smiles — no fights, no complaints. Just laughter, golden evenings, and heartfelt conversations.
+These little moments brought us closer with each passing day, weaving a bond so gentle yet so strong. It was a time when everything felt right, and happiness found its way into every word we shared.</div>
                 </div>
             </div>
 
@@ -442,7 +459,8 @@
                 <div class="timeline-content">
                     <div class="timeline-date">October 2024</div>
                     <div class="timeline-title">Growing Stronger</div>
-                    <div class="timeline-description">With each passing day, the bond grows stronger. Love deepens, understanding flourishes, and the red thread of fate weaves its magic.</div>
+                    <div class="timeline-description">With each passing day, our bond grows stronger. Love deepens, understanding blossoms, and the red thread of fate quietly weaves its magic between us.
+What started as a simple connection has now become something meaningful — a beautiful journey of trust, laughter, and silent support. And through it all, we continue to choose each other, over and over again.</div>
                 </div>
             </div>
 
@@ -450,8 +468,10 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">November 2024</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">Magic in the Air</div>
+                    <div class="timeline-description">This was the month where we shared our sorrows and admitted our mistakes — a time when we truly began to understand and respect each other’s feelings.
+We stood by one another through every struggle. When your exams got tougher, I supported you, and when I felt low or lost in my studies, you lifted me up.
+These little acts of care and constant support turned our bond into something unbreakable — something real, something rare.</div>
                 </div>
             </div>
 
@@ -459,8 +479,9 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">December 2024</div>
-                    <div class="timeline-title">Milestones</div>
-                    <div class="timeline-description">Celebrating achievements and special moments. Each milestone is a testament to the journey and the love that binds us together.</div>
+                    <div class="timeline-title">first struggle</div>
+                    <div class="timeline-description">Well, December — the month where we had our first fight. But it was also the month where we learned to move past our mistakes you know what i mean that one at the end of dec and grow together.
+Yes, we fought — but that fight brought us even closer. It showed that we cared enough to stay, to talk it out, and to understand each other better. Sometimes, even storms help strengthen the roots.</div>
                 </div>
             </div>
 
@@ -468,27 +489,31 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">January 2025</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">Fresh Beginnings</div>
+                    <div class="timeline-description">the month we spent so much time together. From endless video calls to late-night talks, every moment was filled with more love and happiness than the last. do you remember jan 26
+Do you remember those times we managed to be with each other, quietly, without our folks finding out? Those little secret moments made everything feel even more magical — like we were living in our own little world.</div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">Febrauary 2025</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-date">February 2025</div>
+                    <div class="timeline-title">Between Fights and Forever</div>
+                    <div class="timeline-description">the saddest month of our journey. We messed up and got caught at home, lol. A tough experience, but definitely one we won’t forget.
+There were no calls, no messages — just silence and distance. It hurt. But in that silence, we realized how deeply we love each other. 
+Even when everything seemed to fall apart, we never gave up on each other. That’s what made our bond real — strong enough to survive the storms.</div>
                 </div>
             </div>
-
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">March 2025</div>
                     <div class="timeline-title">New Chapters</div>
-                    <div class="timeline-description">Opening new chapters in life's beautiful story. The red thread continues to guide us through adventures yet to come.</div>
+                    <div class="timeline-description">the month you came back to me, but not without a big fight and a twist, lol. It was intense, but somehow, we always find our way back to each other.
+Even though we had less time to talk, we still held onto each other. You opened up about the tough times you faced the previous month, and finally, your exams came to an end.
+Through it all, we stood side by side — proving once again that no matter what, we don’t let go.</div>
                 </div>
             </div>
 
@@ -496,8 +521,9 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">April 2025</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">Moments Together</div>
+                    <div class="timeline-description">April didn’t bring many memories, but it gave us something beautiful — peace. After reuniting once again, we simply enjoyed each other’s presence.
+There were no big moments, no dramas — just calm, happy days filled with quiet smiles and comfort. Sometimes, that kind of peace is all we need.</div>
                 </div>
             </div>
 
@@ -505,8 +531,10 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">May 2025</div>
-                    <div class="timeline-title">First Memories</div>
-                    <div class="timeline-description">The early days filled with wonder and discovery. Every smile, every laugh, every precious moment creating the foundation of beautiful memories.</div>
+                    <div class="timeline-title">Forever Us</div>
+                    <div class="timeline-description">do you remember? This was the month where we talked more, listened more, and even quarreled a bit — but every single day, you still made it beautiful for me.
+Those were lovely days, filled with laughter, tears, and deep connection. Do you remember how we cried together — not out of pain, but because we cared so much?
+And how could I forget the time you asked me to call your friend — a total stranger to me! I was so nervous, but I did it, just because you told me to. That memory still makes me smile.</div>
                 </div>
             </div>
 
@@ -514,54 +542,48 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">June 2025</div>
-                    <div class="timeline-title">Present Day</div>
-                    <div class="timeline-description">Here we are today, celebrating another year of life, love, and happiness. The journey continues with endless possibilities ahead.</div>
+                    <div class="timeline-title">Present Celebration</div>
+                    <div class="timeline-description">HDo you remember June 2? Haha, I think it’s your favorite — or at least one of the most memorable. This month, we probably fought more than ever… even just yesterday. But through every argument, we held on.
+It only proved how strong our bond has become — built not just on love, but on patience, growth, and understanding.
+And today… it's your birthday. Happy, happiest birthday to you, my precious one. I love you endlessly.
+Thank you for giving me some of the most exciting, beautiful days, months, and memories. I can't wait for the many more to come. We'll continue this journey together — with more fights, more love, more care, and yes, don’t forget… a little more romance too. ❤️</div>
                 </div>
             </div>
         </div>
+
         <div class="neon-title">
-            <div class="neon-love">I</div>
+            <div class="neon-love">I lobe you❤️forever</div>
         </div>
     </div>
 
     <script>
-        // Create flying heart symbols
         function createHeart() {
             const heart = document.createElement('div');
             heart.className = 'heart';
-            
+
             const heartSymbol = document.createElement('div');
             heartSymbol.className = 'heart-symbol';
             heartSymbol.innerHTML = '♥';
-            
+
             heart.appendChild(heartSymbol);
-            
-            // Random starting position
             heart.style.left = Math.random() * 20 + 'px';
             heart.style.top = Math.random() * 100 + 'vh';
             heartSymbol.style.animationDelay = Math.random() * 2 + 's';
-            
+
             document.body.appendChild(heart);
 
-            // Remove heart after animation
             setTimeout(() => {
-                if (heart.parentNode) {
-                    heart.parentNode.removeChild(heart);
-                }
+                if (heart.parentNode) heart.parentNode.removeChild(heart);
             }, 9000);
         }
 
-        // Create hearts more frequently for continuous flow
         setInterval(createHeart, 1000);
-
-        // Create initial hearts
         setTimeout(() => {
-            for(let i = 0; i < 8; i++) {
+            for (let i = 0; i < 8; i++) {
                 setTimeout(createHeart, i * 200);
             }
         }, 500);
 
-        // Add scroll animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
