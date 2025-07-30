@@ -101,7 +101,7 @@
 <body>
   <header>
     <h1>Mozilla</h1>
-    <img src="originals\firefox_logo-only_RGB 400.png" alt="logo of firefox">
+    <img src="originals/firefox_logo-only_RGB 400.png" alt="logo of firefox">
   </header>
 
   <main>
@@ -126,30 +126,38 @@
       <!-- insert images with srcsets and sizes -->
       <a href="https://www.mozilla.org/en-US/firefox/new/">
         <img srcset="originals/firefox_logo-only_RGB.png 1200w,
-          /originals/firefox_logo-only_RGB 400.png 400w" sizes="(max-width:500px) 400w,1200w"
-          src="originals\firefox_logo-only_RGB.png">
+          originals/firefox_logo-only_RGB 400.png 400w" 
+          sizes="(max-width: 500px) 400px,1200px"
+          src="originals/firefox_logo-only_RGB.png"
+          alt="firefox logo">
 
       </a>
       <a href="https://www.mozilla.org/">
-        <img srcset="\originals\mozilla-dinosaur-head.png 1200w,
-          \originals\mozilla-dinosaur-head 400.png " 
-          sizes="(max-width:500px) 400w,1200w"
-          src="originals\mozilla-dinosaur-head.png">
+        <img srcset="originals/mozilla-dinosaur-head.png 1200w,
+          originals/mozilla-dinosaur-head 400.png " 
+          sizes="(max-width: 500px) 400px,1200px"
+          src="originals/mozilla-dinosaur-head.png"
+          alt="mozilla dinosaur head">
       </a>
       <a href="https://addons.mozilla.org/">
         <img 
-        src="originals\firefox-addons.jpg">
+        src="originals/firefox-addons.jpg"
+        alt="firefox addons">
       </a>
       <a href="https://developer.mozilla.org/en-US/">
         <img 
-        src="\originals\mdn.svg">
+        src="/originals/mdn.svg"
+        alt="mdn dinosaur">
       </a>
       <div class="clearfix"></div>
     </div>
 
     <div class="red-panda">
-      <img
-      src="\originals\red-panda.jpg">
+      <Picture>
+        <source media="(max-width: 600px)" srcset="originals/red-panda 1200 crop.jpg">
+        <source  media="(max-width: 1200px)" srcset="originals/red-panda 1200.jpg">
+        <img src="originals/red-panda 1200.jpg" alt="panda image">
+      </Picture>
     </div>
 
   </main>
